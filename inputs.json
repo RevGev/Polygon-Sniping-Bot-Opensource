@@ -5,8 +5,8 @@
   "SLIPPAGE": "10",
   "AUTO SLIPPAGE": "false",
   "TP": "200",
-  "SL": "50",
-  "SL TRAIL": "25",
+  "SL": "0",
+  "SL TRAIL": "100",
   "LP": "MATIC",
   "OPL": "True"
 }
