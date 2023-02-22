@@ -3,6 +3,7 @@
   <h1>POLY-X</h1>
   <h2>THIS NEW VERSION IS FOR POLYGON ONLY, WORKING ON ADDING ALL MAIN CHAINS!</h2>
   <p>Snipe New Tokens on all POLYGON Dexes within 1 millisecond</p>
+    <p>ALL CREDITS GO TO DEFIMASTERD AND HIS BSC SNIPING BOT</p>
   
   [![npm version](https://badgen.net/npm/v/@faker-js/faker)](https://www.npmjs.com/package/@faker-js/faker)
   [![Open Collective](https://img.shields.io/opencollective/backers/fakerjs)](https://opencollective.com/fakerjs#section-contributors)
