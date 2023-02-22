@@ -20,6 +20,8 @@
   <p>ETH sniping bot: https://github.com/Blockys69/Ethereum-Sniping-Bot-ETHX</p>
 </div>
 
+![Code preview](defixinfographic.png)
+
 
 ## 🚀 Features
 
