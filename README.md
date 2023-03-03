@@ -17,8 +17,8 @@
   
   <p>BSC Sniping Bot version: https://github.com/DeFiMasterd/PancakeX-ASTRA-V2-BSC-Sniping-Bot</p>
   <p>AVAX Sniping Bot version: https://github.com/DeFiMasterd/PancakeX-ASTRA-AVAX-Sniping-Bot</p>
-  <p>ARBITRUM version! much love: https://github.com/Blockys69/ARBITRUM-SNIPING-BOT-ASTRA-GUI</p>
-  <p>ETH sniping bot: https://github.com/Blockys69/Ethereum-Sniping-Bot-ETHX</p>
+  <p>ARBITRUM version! much love: https://github.com/Yapote/ARBITRUM-SNIPING-BOT-ARBX</p>
+  <p>ETH sniping bot: https://github.com/Yapote/ETHEREUM-SNIPING-BOT-ETHX</p>
 </div>
 
 ![Code preview](defixinfographic.png)
