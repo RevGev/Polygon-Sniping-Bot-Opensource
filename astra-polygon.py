@@ -171,11 +171,11 @@ BH='TxZEsE361BfcfNjRwTZ8nVTAp6ZBXoDXRaQgUpyXfUQ='
 AZ=f(L(BT))
 if'wss'in AZ[AD]or'ws'in AZ[AD]:C=R(R.WebsocketProvider(AZ[AD]))
 else:C=R(R.HTTPProvider(AZ[AD]))
-AA=C.to_checksum_address('0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270')
-i=C.to_checksum_address('0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174')
+AA=C.toChecksumAddress('0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270')
+i=C.toChecksumAddress('0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174')
 U=f(L(A_+'erc20.abi'))
-V=C.eth.contract(address=R.to_checksum_address('0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff'),abi=f(L(A_+'router.abi')))
-BI=C.eth.contract(address=R.to_checksum_address('0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32'),abi=f(L(A_+'factory.abi')))
+V=C.eth.contract(address=R.toChecksumAddress('0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff'),abi=f(L(A_+'router.abi')))
+BI=C.eth.contract(address=R.toChecksumAddress('0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32'),abi=f(L(A_+'factory.abi')))
 Aa='sfttxzhVv7trv_zSKqOBJN_2KdnJcsje5PMUbRSnImw='
 def C0():
 	k()
@@ -192,14 +192,14 @@ def C2():
 	else:D=B-B*M(Ag)/100
 	try:A(BV,Y);F=V.functions.swapExactTokensForTokens(C.toWei(s,Z),M(D),[i,I],G,M(AW())+900).buildTransaction({AS:G,An:M(A6),AT:C.toWei(A7,Ao),AU:C.eth.get_transaction_count(G)});H=C.eth.account.sign_transaction(F,private_key=W);E=C.eth.send_raw_transaction(H.rawTransaction);A(BW,O);A(B0+C.toHex(E),O);C.eth.waitForTransactionReceipt(E,timeout=900);CB()
 	except A8 as K:A(B1,J);A(K,J);A2();return
-def C3(token_address,amt=BG):A=R.to_checksum_address(token_address);B=C.eth.contract(address=A,abi=U);D=B.functions.allowance(G,V.address).call();return D>=amt
-def C4(token_address,amt=BG,timeout=900):A('Approving token');B=C.eth.gasPrice;D=R.to_checksum_address(token_address);E=C.eth.contract(address=D,abi=U);F=E.functions.approve(V.address,amt);H={AS:G,AT:B,AU:C.eth.getTransactionCount(G)};I=F.buildTransaction(H);J=C.eth.account.sign_transaction(I,private_key=W);K=C.eth.sendRawTransaction(J.rawTransaction);C.eth.waitForTransactionReceipt(K,timeout=timeout)
+def C3(token_address,amt=BG):A=R.toChecksumAddress(token_address);B=C.eth.contract(address=A,abi=U);D=B.functions.allowance(G,V.address).call();return D>=amt
+def C4(token_address,amt=BG,timeout=900):A('Approving token');B=C.eth.gasPrice;D=R.toChecksumAddress(token_address);E=C.eth.contract(address=D,abi=U);F=E.functions.approve(V.address,amt);H={AS:G,AT:B,AU:C.eth.getTransactionCount(G)};I=F.buildTransaction(H);J=C.eth.account.sign_transaction(I,private_key=W);K=C.eth.sendRawTransaction(J.rawTransaction);C.eth.waitForTransactionReceipt(K,timeout=timeout)
 def C5():
 	A(N);k();E=C.eth.contract(AA,abi=U)
 	while P:
 		B=BI.functions.getPair(AA,I).call()
 		if B!=BX:
-			D=E.functions.balanceOf(C.to_checksum_address(B)).call()
+			D=E.functions.balanceOf(C.toChecksumAddress(B)).call()
 			if D!=0:A(BY,'green');A(BZ+B);A(Ba+t(C.fromWei(D,Z))+' MATIC');C0();break
 			else:A9(5);A(Ap,J)
 		else:A9(5);A(Ap,J)
@@ -209,7 +209,7 @@ def C7():
 	while P:
 		B=BI.functions.getPair(i,I).call()
 		if B!=BX:
-			D=E.functions.balanceOf(C.to_checksum_address(B)).call()
+			D=E.functions.balanceOf(C.toChecksumAddress(B)).call()
 			if D!=0:A(BY,'green');A(BZ+B);A(Ba+t(C.fromWei(D,Z))+' USDC');C2();break
 			else:A(Ap,J)
 		else:A(Ap,J)
@@ -279,13 +279,13 @@ def Cs(license,basic_auth):
 Ab=z(Aa.encode()).decrypt(CA.encode()).decode()
 def CF():
 	B='Invalid token address!';global G;global W;global I;global AB;A('***** INITIALIZED ******');A('* Checking wallet address')
-	if C.is_checksum_address(b.get()):G=C.to_checksum_address(b.get());A('Wallet address valid',O)
+	if C.isChecksumAddress(b.get()):G=C.toChecksumAddress(b.get());A('Wallet address valid',O)
 	else:Q.messagebox.showerror(Ar,'Invalid wallet address');A('Invalid wallet address!',J);return
 	A('* Checking private key characters (Must be 64 characters');W=A3.get()
 	if len(W)==64:A('Correct format for Private key',O)
 	else:Q.messagebox.showerror(Ar,'Private key is invalid! (Must be 64 characters)');A('Invalid private key!',J);return
 	A('* Checking token address')
-	try:I=C.to_checksum_address(X.get());A('Token address valid',O)
+	try:I=C.toChecksumAddress(X.get());A('Token address valid',O)
 	except:Q.messagebox.showerror(Ar,B);A(B,J);return
 	A('* Checking License Key');A('License Key Valid',O);BM(AV);Bw();Ad.grid_forget();Ae.grid(row=0,column=3,padx=10,pady=(0,10),sticky=F,rowspan=4);AC(As);AB=P;D=y.Thread(target=CD,daemon=P);D.start();A(N);A('***** Sniping is ready! *****',Y)
 CG='gAAAAABh80VOiXlJwI8QSkM2-V_syGU-8mtXwD9c87k-cbMopaX4lqCMUipHR5ZKO-bZ6vrKC0QkIhzwcASNj_5u7F_xEJz3aQ=='
@@ -439,6 +439,6 @@ Ai=BE
 Aj=BF
 a=w
 AB=w
-def BQ():global s;global G;global W;global I;global Ag;global A6;global A7;global Ah;global Ai;global Aj;s=l.get();G=R.to_checksum_address(b.get());W=A3.get();I=R.to_checksum_address(X.get());Ag=o.get();A6=n.get();A7=m.get();Ah=p.get();Ai=q.get();Aj=r.get()
+def BQ():global s;global G;global W;global I;global Ag;global A6;global A7;global Ah;global Ai;global Aj;s=l.get();G=R.toChecksumAddress(b.get());W=A3.get();I=R.toChecksumAddress(X.get());Ag=o.get();A6=n.get();A7=m.get();Ah=p.get();Ai=q.get();Aj=r.get()
 AC(AV)
 B.mainloop()
