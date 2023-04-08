@@ -39,7 +39,7 @@
 
 ```bash
 1. Download python3.7+ for your PC from python org, extract the ABI and themes zip into the folder with the bot
-2. Open terminal in the bot folder and type "pip install -r requirements.txt" / this will install all modules required to run the bot
+2. Open terminal in the bot folder and type "pip3 install -r requirements.txt" / this will install all modules required to run the bot
 3. In the same terminal type "python3 astra-polygon.py"
 
 ```
