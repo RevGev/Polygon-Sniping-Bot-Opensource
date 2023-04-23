@@ -1,6 +1,5 @@
 <div align="center">
   <img src="pancakex.png" width="200"/>
-  <h1>POLY-X</h1>
   <h2>THIS NEW VERSION IS FOR POLYGON ONLY, WORKING ON ADDING ALL MAIN CHAINS!</h2>
   <p>Snipe New Tokens on all POLYGON Dexes within 1 millisecond</p>
     <p>ALL CREDITS GO TO DEFIMASTERD AND HIS BSC SNIPING BOT</p>
