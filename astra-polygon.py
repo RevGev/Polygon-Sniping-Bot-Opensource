@@ -301,7 +301,7 @@ def CK():
 	if B.tk.call('ttk::style','theme','use')=='sun-valley-dark':B.tk.call(B2,'light');Af[B3].configure(bg=At)
 	else:B.tk.call(B2,'dark');Af[B3].configure(bg='black')
 B=Q.Tk()
-B.title('MATIC Sniper Bot - V1')
+B.title('POLYGON Sniper Bot - V3')
 B.geometry('1050x730')
 B.tk.call('source','sun-valley.tcl')
 B.tk.call(B2,'light')
